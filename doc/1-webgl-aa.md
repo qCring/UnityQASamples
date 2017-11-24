@@ -2,6 +2,8 @@
 
 This sample demonstrates an issue with anti-aliasing on WebGL builds. The main camera uses the **forward rendering** pipeline and AA is set to **8x**.
 
+Currently, WebGL builds which are using any Unity2017.3 beta version (last tested **2017.3.0b10**) show a black screen when launched via Safari on some macOS machines. Prior to 2017.3, AA is not working with WebGL 1.0.
+
 Here are the results for different combinations of:   
 
 - Unity version
